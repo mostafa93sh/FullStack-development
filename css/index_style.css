@@ -1,0 +1,340 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+nav .navbar-collapse 
+{
+   padding-left:500px
+}
+nav div ul li 
+{
+    margin:0 10px;
+    
+        
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:#000;
+    font-weight:700;
+    font-size: 16px;
+}
+nav img
+{
+    width:50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+
+
+/*home-section*/
+
+
+
+.Home-section
+{
+    background-image: url(../images/home-bg.jpg);
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+    height:850px;
+ 
+}
+.Home-section .home-ly
+{
+    background-color: rgba(0,0,0,.5);
+    height: 100%
+    
+}
+.Home-section .home-ly .container
+{
+    margin: auto;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px
+    
+}
+.Home-section .home-ly .container h1
+{
+    font-size: 72px;
+    font-weight: 400;
+    padding-top: 18px
+}
+.Home-section .home-ly .container ul
+{
+    text-align: center;
+    list-style: none;
+    padding-top:17px
+}
+
+.Home-section .home-ly .container ul li
+{
+    display: inline-block;
+    margin: 15px
+}
+.Home-section .home-ly .container ul li a i
+{
+    color:rgba(255,255,255,.3);
+    font-size: 35px;
+}
+
+
+/* secotion about me*/
+
+.Aboutme-section
+{
+    height:900px;
+}
+.Aboutme-section .container1
+{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    padding-top:100px;
+}
+.Aboutme-section .container1 h1
+{
+    font-size: 40px;
+    position: relative;
+}
+.Aboutme-section .container1 h1:before
+{
+    content: "";
+    width:7%;
+    height: 2px;
+    border: 1px solid #999;
+    position: absolute;
+    top: 15px;
+    right:354px;
+    
+        
+}
+
+.Aboutme-section .container1 h1:after
+{
+    content: "";
+    width:7%;
+    height: 2px;
+    border: 1px solid #999;
+    position: absolute;
+    top: 15px;
+    left:354px;
+    
+        
+}
+
+.Aboutme-section .container p
+{
+    color: #999;
+    padding:0 150px;
+}
+.Aboutme-section .second-con
+{
+     margin: auto;
+    width: 65%;
+    text-align: center;
+    padding-top:100px;
+}
+.Aboutme-section .second-con .names
+{
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 20px;
+}
+.Aboutme-section .second-con ul
+{
+    list-style: none;
+    padding-top: 9px;
+    padding-right:45px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #999
+}
+.Aboutme-section .second-con ul li
+{
+    display: inline-block;
+    margin: 6px;
+}
+.Aboutme-section .second-con p
+{
+    font-size: 18px;
+    color: #999;
+    padding: 0 30px;
+}
+.Aboutme-section .third-section
+{
+    margin: auto;
+    margin-top: 50px;
+    overflow: visible;
+    width:80%
+    
+}
+.clear-now
+{
+    clear: both
+}
+.Aboutme-section .third-section .first-progres-section
+{
+    float: left;
+    width: 48%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.Aboutme-section .third-section .first-progres-section .progress
+{
+    height: 4px;
+    background-color: #eee;
+    margin: 5px
+}
+.Aboutme-section .third-section .first-progres-section .progress .progress-bar
+{
+    background-color: #000
+}
+
+.Aboutme-section .third-section .first-progres-section .Progress-number p
+{
+    float: left;
+    font-weight: bold
+}
+.Aboutme-section .third-section .first-progres-section .Progress-number span
+{
+    float: right
+}
+.Aboutme-section .third-section .second-progres-section 
+{
+    float: right;
+    width: 45%;
+    padding-left: 10px;
+    box-sizing: border-box
+}
+.Aboutme-section .third-section .second-progres-section .progress-bar
+{
+    background-color: #000
+}
+.Aboutme-section .third-section .second-progres-section .progress
+{
+    height: 4px;
+    background-color: #eee;
+    margin: 5px;
+}
+.Aboutme-section .third-section .second-progres-section .Progress-number p
+{
+    float: left;
+    font-weight: bold
+}
+.Aboutme-section .third-section .second-progres-section .Progress-number span
+{
+    float: right
+}
+
+
+
+/* --------------------------Our Services--------------- */
+.our-services
+{
+    background-color: #F8F9FA;
+}
+
+.our-services .container-one
+{
+     margin: auto;
+    width: 65%;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 50px
+}
+
+.our-services .container-one h1
+{
+    font-size: 40px;
+    position: relative;
+    margin-top: 25px
+}
+.our-services .container-one h1:before
+{
+    content: "";
+    width:6%;
+    height: 1px;
+    border: .5px solid #999;
+    position: absolute;
+    top: 15px;
+    right:374px;
+    
+        
+}
+
+.our-services .container-one h1:after
+{
+    content: "";
+    width:6%;
+    height: 1px;
+    border: .5px solid #999;
+    position: absolute;
+    top: 15px;
+    left:374px;
+    
+        
+}
+.our-services .container-one p
+{
+    color: #999;
+    padding:0 150px;
+}
+
+.our-services .edit-container
+{
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 18px;
+    text-align: center;
+    border-radius: 4%
+    
+}
+.our-services .edit-container h5
+{
+    padding-top: 25px
+}
+.our-services .container div i
+{
+    font-size: 58px;
+    padding-bottom: 5px;
+    color: #999;
+    
+}
+
+
+/* ------------------ SECTION FUNFACTS-------------*/
+
+.bg-section 
+{
+    height: 360px;
+    background-image: url(../images/ice.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 80px;
+    padding-top:80px
+}
+.bg-section .bg-layout
+{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7)
+}
+
+
+.content-centered
+{
+    margin: auto;
+    width: 85%
+}
+
+.border-style
+{
+    border: 1px dashed #ccc;
+                                                                           box-sizing: border-box"
+}

@@ -1,0 +1,204 @@
+
+
+
+
+
+.loading
+{
+    width:100%;
+    height: 1000px;
+    background-color:#09c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999999;
+    padding-top: 100px
+    
+}
+
+body
+{
+    overflow: hidden
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navgation-right
+{
+    margin-left:600px
+}
+
+.mleft
+{
+    margin-left: 100px
+}
+
+.ptop
+{
+    padding-top:150px
+}
+
+.home-bg
+{
+    background-image: url(Img/header.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    
+    
+    
+}
+
+.white-text
+{
+    color: #fff
+}
+
+
+.btn-edit
+{
+    background-color:rgba(229,24,24,1.00);
+    border-radius: 300px;
+    padding: 12px 30px;
+    font-size: 17px
+}
+.btn-edit-2
+{
+    background-color:#FFF;
+    border-radius: 300px;
+    padding: 15px 35px;
+    font-size: 17px;
+    color: #000
+}
+
+.wtuneed-section
+{
+    background-color: #F05F40;
+    height: 300px
+}
+
+
+.your-sevices
+{
+    height: 600px;
+    
+}
+
+.p-all
+{
+    padding:17px;
+    box-sizing: border-box;
+}
+
+
+.pad-r-l
+{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.orange-color{
+    color:#F05F40!important;
+}
+.clear
+{
+    clear: both
+}
+
+
+
+.pics-section
+{
+    height: 600px;
+    
+}
+
+.pics-section .container-fluid .row .col img
+{
+    width: 100%;
+
+    
+    
+}
+
+
+.full-width
+{
+    width: 100%!important;
+}
+
+
+.pics-section .container-fluid .row .col .frame
+{
+    background-color: rgba(240,95,64,.9);
+    position: absolute;
+    width:100%;
+    height:0;
+    top:0;
+    text-align: center;
+    transition: all 1s;
+    overflow: hidden
+    
+}
+
+.frame-position
+{
+    position: relative;
+    overflow: hidden
+}
+
+.pics-section .container-fluid .row .col .frame h2
+{
+    transition: all 1s;
+    transition-delay: 1s;
+    
+    
+}
+
+.pics-section .container-fluid .row .frame-position:hover .frame
+{
+    height: 100%
+    
+    
+    
+}
+
+.pics-section .container-fluid .row .frame-position:hover .frame h2
+{
+    font-size: 40px;
+}
+
+.pics-section .container-fluid .row .frame-position .frame p
+{
+    color:rgba(240,240,240,.9);
+    font-size: 19px
+}
+
+
+.gitouch
+{
+    height: 600px;
+}
+
+.gitouch .container-1
+{
+    margin: auto;
+    width: 65%;
+}
